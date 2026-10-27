@@ -7,12 +7,12 @@ Repositório técnico dedicado a documentar o processo de instalação, configur
 
 ---
 
-## 📋 Contexto do Problema
+##  Contexto do Problema
 O software oficial do analisador de qualidade de energia **Hioki 3197 (Ver 1.02)** depende de arquiteturas de 32 bits e bibliotecas obsoletas, sendo incompatível nativamente com sistemas operativos Windows modernos de 64 bits. Para além disso, o software exige obrigatoriamente o **Java Runtime Environment (JRE) 1.4.2**.
 
 ---
 
-## 🛠️ Requisitos e Dependências
+##  Requisitos e Dependências
 * **Sistema Hospedeiro (Host):** Windows 10 / 11 (64-bit).
 * **Software de Virtualização:** Oracle VM VirtualBox.
 * **Sistema Convidado (Guest OS):** Windows XP Professional SP3 (32-bit / x86).
@@ -23,7 +23,7 @@ O software oficial do analisador de qualidade de energia **Hioki 3197 (Ver 1.02)
 
 ---
 
-## 🚀 Guia Passo a Passo de Implementação
+##  Guia Passo a Passo de Implementação
 
 ### 1. Criação e Configuração da Máquina Virtual (VirtualBox)
 1. Crie uma nova máquina virtual no VirtualBox:
@@ -50,7 +50,7 @@ Devido às limitações de compatibilidade de rede e ferramentas de integração
 
 ---
 
-## 🖥️ Utilização do Software
+##  Utilização do Software
 Após a instalação concluída, aceda ao menu **Iniciar > Todos os Programas > HIOKI > 3197Applications**:
 * **3197Communicator:** Utilizado para ligar o instrumento Hioki 3197 via USB/Serial, configurar parametrizações e descarregar os dados de registo de energia.
 * **3197DataViewer:** Utilizado para analisar os gráficos, relatórios e dados extraídos.
